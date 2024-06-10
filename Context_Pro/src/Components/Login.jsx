@@ -15,6 +15,12 @@ function Login() {
     <div>
         <h1>Context api Project </h1>
         <br/>
+        <label>
+            name-Rudra./
+            Email-abc@gmail.in./
+            password-Rudra@123
+        </label>
+        <br/>
         <br/>
         <input type="text" value={name} onChange={(e)=>{setname(e.target.value)}}  placeholder='Name.....'/> <label>Name</label><br/>
         <input type="email" value={Email} onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email....' />  <label>Email</label>  <br/>
